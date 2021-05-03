@@ -46,8 +46,8 @@ const birthDayChanceFormula = (people) => {
     notSharing = 1
     for (let i=1 ; i < people ; i++){
         notSharing *= ( 1 - (i / 365))
-        result = (1 - notSharing)
     }
+    result = (1 - notSharing)
     return result
 }
 
